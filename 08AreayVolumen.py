@@ -27,8 +27,3 @@ a_cono = PI * (r1 + r2) * g + PI * (r1**2 + r2**2)
 v_cono = (1/3) * PI * h * (r1**2 + r1 * r2 + r2**2)
 print(f"\nÁrea cono truncado: {a_cono:.2f}")
 print(f"Volumen cono truncado: {v_cono:.2f}\n")
-<<<<<<< HEAD
-
-#hacerlo con funciones
-=======
->>>>>>> 9c08224579667afd246788495639580f171f3fa2
