@@ -22,7 +22,7 @@ print(f"Volumen cilindro: {v_cilindro:.2f}\n")
 r1 = float(input("Radio menor del cono truncado: "))
 r2 = float(input("Radio mayor del cono truncado: "))
 h = float(input("Altura del cono truncado: "))
-g = ((r2 - r1)**2 + h**2)**0.5  # Generatriz
+g = ((r2 - r1)**2 + h**2)**0.5
 a_cono = PI * (r1 + r2) * g + PI * (r1**2 + r2**2)
 v_cono = (1/3) * PI * h * (r1**2 + r1 * r2 + r2**2)
 print(f"\nÁrea cono truncado: {a_cono:.2f}")
